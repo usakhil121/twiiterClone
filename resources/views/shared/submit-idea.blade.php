@@ -5,7 +5,10 @@
                         <div class="mb-3">
                             <textarea class="form-control" id="idea" name="idea" rows="3"></textarea>
                             @error('idea')
+                            <div class="mt-3">
+
                             <span class="fs-6 text-danger">{{$message}}</span>
+                            </div>
                             @enderror
                         </div>
                         <div class="">
